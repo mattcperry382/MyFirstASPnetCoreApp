@@ -1,0 +1,39 @@
+﻿html, *, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    margin: 5rem 40rem;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+form {
+    text-align: left;
+}
+
+#picGanderson {
+    width: 10rem;
+    height: 10rem;
+    margin: 1rem 0;
+}
+
+label {
+    display: inline-block;
+    width: 9rem;
+}
+
+input {
+    margin: 1rem 0;
+}
+
+input[type=button] {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
